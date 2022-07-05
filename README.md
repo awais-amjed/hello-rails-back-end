@@ -1,24 +1,64 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails Back End
 
-Things you may want to cover:
+> Back End app for hello rails test API
 
-* Ruby version
+## Link to backend
 
-* System dependencies
+- Check out React Front-end Application [here](https://github.com/awais-amjed/hello-react-front-end)
 
-* Configuration
+## Built with
 
-* Database creation
+- Ruby
+- Rails
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+- Ruby
+- Rails
+- Postgresql
 
-* ...
+### Setup
+
+- Clone the Repository
+- Go to the project directory
+- Run ```bundle install```
+- Run ```rails db:create```
+- Run ```rails db:migrate```
+- Run ```rails db:seed``` to populate database
+
+### Usage
+
+- Run ```rails s``` to run the app
+
+Make sure to run the server on `port 3000` to communicate with the front-end
+
+## Authors
+
+👤 **Awais Amjed**
+
+- GitHub: [@awais-amjed](https://github.com/awais-amjed)
+- LinkedIn: [@awais-amjed](https://www.linkedin.com/in/awais-amjed/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
