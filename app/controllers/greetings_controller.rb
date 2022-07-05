@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
- def index
+  def index
     render json: Greeting.all.sample
   end
 end
